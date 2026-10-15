@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: osint-graph
+    runtime: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python app.py"
